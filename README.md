@@ -1,4 +1,4 @@
-# Channels and videos objects challenge
+# 📺 Channels and videos objects challenge
 
 ## Instructions
 
