@@ -10,7 +10,7 @@ const channels = require("./channels.json");
 
 /**************************************************************
  * getChannelName(channel)
- * - recieves a channel object
+ * - receives a channel object
  * - returns the name of the channel
  ****************************************************************/
 function getChannelName(channel) {
@@ -21,7 +21,7 @@ function getChannelName(channel) {
 
 /**************************************************************
  * numberOfVideos(channel)
- * - recieves a channel object
+ * - receives a channel object
  * - returns the number of videos that channel has
  ****************************************************************/
 function numberOfVideos(channel) {
@@ -32,7 +32,7 @@ function numberOfVideos(channel) {
 /**************************************************************
  * channelHasVideo(videoTitle, channel):
  * - receives a video title (string)
- * - recieves a channel object
+ * - receives a channel object
  * - returns true if the channel object has a video that matches the given video title
  * - returns false otherwise
  *
@@ -47,7 +47,7 @@ function channelHasVideo(videoTitle, channel) {
 /**************************************************************
  * getChannelByName(channelName, channels):
  * - receives a channel name (string)
- * - recieves an array of channel objects
+ * - receives an array of channel objects
  * - returns the channel object with the same name as the channelName provided
  *
  * BONUS: use iteration method `.find()`
@@ -60,7 +60,7 @@ function getChannelByName(channelName, channels) {
 /**************************************************************
  * getChannelByVideoTitle(videoTitle, channels):
  * - receives a video title (string)
- * - recieves an array of channel objects
+ * - receives an array of channel objects
  * - returns the channel object that contains a video with the video title provided
  *
  * BONUS: use iteration methods `.find()` and `.some()`

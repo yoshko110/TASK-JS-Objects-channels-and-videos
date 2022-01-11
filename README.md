@@ -2,29 +2,22 @@
 
 ## Instructions
 
-#### Tools
-
-- Install `node`:
+- Make sure you fork and clone [this repo](https://github.com/JoinCODED/TASK-Objects-channels-and-videos) to your development folder
+- Make sure node and npm are installed
+- Install the requirements by going inside the task directory, and running the command
   ```bash
-  $ brew install node
+  $ npm install
   ```
+- open `functions.js` and `channels.json` files side by side.
+- You will complete the functions in `functions.js`. It's very important to understand the structure of the JSON file. That's why it's important to see the JSON file while solving the tasks
+- Some tasks take a **single channel**, and some tasks take the whole **channels** array. Pay attention to the parameters names.
+- You are not going to send the channels or a single channel, it's being tested if you just do `npm test`,
 
-#### The Files
+### Bonus 🎁
 
-**Fork** this repository and clone your fork (make sure you clone it into your `development` directory):
+- if you are done, go to bonus.js, and try to finish the tasks
 
-```bash
-$ git clone https://github.com/<your_username>/JSFoundations-Objects.git
-```
-
-#### Running The Tests
-
-Install all the requirements:
-
-1. Navigate to the project root (you'll find a file called `package.json` there).
-2. Install the requirments using `npm install`.
-
-Run the tests:
+Run the tests after every edit, to check if you pass the tests:
 
 ```bash
 $ npm test
