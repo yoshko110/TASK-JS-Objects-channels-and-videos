@@ -1,4 +1,4 @@
-# JavaScript Episode 4
+# Channels and videos objects challenge
 
 ## Instructions
 
